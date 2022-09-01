@@ -22,7 +22,7 @@
 		var section = document.querySelector('#section1');
 		var section2 = document.querySelector('#section2');
 		/* STEP 3: Store the URL of a JSON file in a variable */
-        var requestURL = ' https://tusharbalahi1.github.io/smccrindle.github.io/comp1073-10/js/i-scream.json';
+        var requestURL = 'https://tusharbalahi1.github.io/smccrindle.github.io/js/i-scream.json';
 		/* STEP 4: Create a new XHR object */
 		var request = new XMLHttpRequest();
 		/* STEP 5: Open a new request using the request() method */
@@ -64,7 +64,7 @@
 					var p2 = document.createElement('p');
 					var list = document.createElement('ul');
 					// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-					img.setAttribute('src', ' https://tusharbalahi1.github.io/smccrindle.github.io/comp1073-10/images/' + topFlavors[i].image);
+					img.setAttribute('src', 'https://tusharbalahi1.github.io/smccrindle.github.io/images/' + topFlavors[i].image);
 					img.setAttribute('alt', topFlavors[i].name);
 					h2.textContent = topFlavors[i].name;
 					p1.textContent = 'Calories: ' + topFlavors[i].calories;
@@ -95,7 +95,7 @@
                     var p2 = document.createElement('p');
                     var list = document.createElement('ul');
                     // STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-                    img.setAttribute('src', ' https://tusharbalahi1.github.io/smccrindle.github.io/comp1073-10/images/' + topFlavors[i].image);
+                    img.setAttribute('src', 'https://tusharbalahi1.github.io/smccrindle.github.io/images/' + topFlavors[i].image);
                     img.setAttribute('alt', topFlavors[i].name);
                     h2.textContent = topFlavors[i].name;
                     p1.textContent = 'Calories: ' + topFlavors[i].calories;
